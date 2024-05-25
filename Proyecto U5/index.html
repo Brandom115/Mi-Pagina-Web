@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómputo en la Nube y Servicios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cómputo en la Nube y Servicios</h1>
+        </header>
+
+        <section>
+            <h2>5.1 Conceptos Generales</h2>
+            <p>El cómputo en la nube se refiere a la entrega de servicios informáticos, incluidos servidores, almacenamiento, bases de datos, redes, software, análisis e inteligencia a través de Internet ("la nube") para ofrecer innovación más rápida, recursos flexibles y economías de escala.</p>
+            <div class="image">
+                <img src="images/conceptos_generales.jpg" alt="Conceptos Generales de la Nube">
+            </div>
+            <p><strong>Conceptos clave:</strong></p>
+            <ul>
+                <li>Elasticidad: La capacidad de escalar recursos hacia arriba o hacia abajo según sea necesario.</li>
+                <li>Multitenencia: Múltiples clientes compartiendo los mismos recursos de computación.</li>
+                <li>Autoservicio bajo demanda: Los usuarios pueden aprovisionar recursos sin intervención humana.</li>
+                <li>Amplio acceso a la red: Los servicios están disponibles a través de la red y accesibles a través de dispositivos estándar.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5.2 Tipos de Servicios en la Nube</h2>
+            <p>Los servicios en la nube se pueden categorizar en varios tipos, dependiendo del nivel de control que se desee y los tipos de servicios requeridos:</p>
+            <div class="image">
+                <img src="/images/tipos_de_servicios.png" alt="Tipos de Servicios en la Nube">
+            </div>
+            <h3>1. Infraestructura como Servicio (IaaS)</h3>
+            <p>Provisión de infraestructura básica, como máquinas virtuales, redes, almacenamiento, y servidores.</p>
+            <p><strong>Ejemplos:</strong> Amazon Web Services (AWS) EC2, Google Compute Engine (GCE).</p>
+
+            <h3>2. Plataforma como Servicio (PaaS)</h3>
+            <p>Entorno para desarrollo y despliegue que permite a los desarrolladores crear aplicaciones sin gestionar la infraestructura subyacente.</p>
+            <p><strong>Ejemplos:</strong> Google App Engine, Microsoft Azure.</p>
+
+            <h3>3. Software como Servicio (SaaS)</h3>
+            <p>Aplicaciones completas entregadas a través de Internet, gestionadas y actualizadas por proveedores de servicios.</p>
+            <p><strong>Ejemplos:</strong> Google Workspace, Microsoft Office 365.</p>
+        </section>
+
+        <section>
+            <h2>5.3 Patrones de Diseño</h2>
+            <p>Los patrones de diseño en la nube son soluciones reutilizables para problemas comunes de diseño en sistemas basados en la nube:</p>
+            <div class="image">
+                <img src="/images/patrones_de_diseno.png" alt="Patrones de Diseño en la Nube">
+            </div>
+            <ul>
+                <li><strong>Microservicios:</strong> Arquitectura que estructura una aplicación como un conjunto de servicios pequeños y autónomos, modelados en torno a un negocio.</li>
+                <li><strong>Serverless:</strong> Arquitectura donde el proveedor en la nube gestiona la infraestructura y la escala, permitiendo a los desarrolladores centrarse en el código.</li>
+                <li><strong>Caching:</strong> Almacenar datos en caché para mejorar el rendimiento y reducir la carga en la infraestructura.</li>
+                <li><strong>Colas de Mensajes:</strong> Usar colas para gestionar la comunicación entre componentes desacoplados.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5.4 Estándares en Servicios</h2>
+            <p>La interoperabilidad y la compatibilidad son esenciales en los servicios en la nube, y existen varios estándares y marcos que facilitan estas características:</p>
+            <div class="image">
+                <img src="/images/estandares_en_servicios.png" alt="Estándares en Servicios">
+            </div>
+            <ul>
+                <li><strong>ISO/IEC 17788:</strong> Proporciona una visión general y un vocabulario de la computación en la nube.</li>
+                <li><strong>ISO/IEC 27017:</strong> Código de práctica para controles de seguridad de la información basados en ISO/IEC 27002 para servicios en la nube.</li>
+                <li><strong>Cloud Security Alliance (CSA):</strong> Proporciona mejores prácticas para asegurar entornos en la nube.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5.5 Plataformas Tecnológicas</h2>
+            <p>Las plataformas tecnológicas en la nube abarcan una variedad de herramientas y servicios que facilitan la creación, despliegue y gestión de aplicaciones en la nube:</p>
+            <div class="image">
+                <img src="/images/plataformas_tecnologicas.jpg" alt="Plataformas Tecnológicas">
+            </div>
+            <ul>
+                <li><strong>Amazon Web Services (AWS):</strong> Amplia gama de servicios en la nube, incluidos cómputo, almacenamiento, y bases de datos.</li>
+                <li><strong>Microsoft Azure:</strong> Servicios en la nube que abarcan computación, análisis, almacenamiento y redes.</li>
+                <li><strong>Google Cloud Platform (GCP):</strong> Servicios de cómputo, almacenamiento, bases de datos y aprendizaje automático.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5.6 Seguridad e Interoperabilidad</h2>
+            <p>La seguridad y la interoperabilidad son componentes cruciales del cómputo en la nube:</p>
+            <div class="image">
+                <img src="/images/seguridad_e_interoperabilidad.png" alt="Seguridad e Interoperabilidad">
+            </div>
+            <h3>Seguridad en la nube</h3>
+            <ul>
+                <li><strong>Cifrado:</strong> Protege los datos en tránsito y en reposo mediante algoritmos de cifrado.</li>
+                <li><strong>Control de acceso:</strong> Herramientas como IAM (Identity and Access Management) permiten gestionar quién tiene acceso a qué recursos.</li>
+                <li><strong>Monitoreo y auditoría:</strong> Servicios para rastrear la actividad y detectar comportamientos sospechosos.</li>
+            </ul>
+
+            <h3>Interoperabilidad</h3>
+            <ul>
+                <li><strong>APIs abiertas:</strong> Usar APIs estandarizadas para asegurar que los servicios puedan comunicarse entre sí sin problemas.</li>
+                <li><strong>Estándares de datos:</strong> Usar formatos de datos comunes como JSON, XML para facilitar el intercambio de información.</li>
+                <li><strong>Compatibilidad de aplicaciones:</strong> Asegurar que las aplicaciones pueden funcionar en diferentes plataformas y servicios en la nube sin modificaciones significativas.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
